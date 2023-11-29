@@ -1,6 +1,12 @@
 ## Description
 
-Web-scraper using Nest framework Typescript
+Web-scraper using Nestjs framework Typescript. Idea is to visit any website using puppeteer core lib and fetch details of searched item.
+
+## Pre Requirements
+
+* puppeteer-core -  library that helps drive anything that supports DevTools protocol. A lightweight version of Puppeteer that can launch an existing browser installation or connect to a remote one
+
+* brightdata.com - web data platfrom used for scraping browser in use with puppeteer-core lib.
 
 ## Installation
 

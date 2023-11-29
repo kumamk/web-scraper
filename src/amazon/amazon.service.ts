@@ -17,7 +17,7 @@ export class AmazonService {
             page.setDefaultNavigationTimeout(2 * 60 * 1000); // 2 ms
             await Promise.all([
                 page.waitForNavigation(),
-                page.goto("https://amazon.com"), // site to srap
+                page.goto("https://amazon.com"), // public site to scrap
             ])
             // getting html selector using inspect element
             await page.type('#twotabsearchtextbox', products);
